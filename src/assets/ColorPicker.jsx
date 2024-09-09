@@ -12,7 +12,8 @@ return (
     <div>
         <h1>Color Picker</h1>
         <div className="color-display" style={{background: color}}>
-            <p>Selected Color: {color}</p>
+            <h2>Selected Color:</h2>
+            <h3>{color}</h3>
         </div>
         <div className="select-color-container">
             <label htmlFor="color">Select a color:</label>

@@ -1,7 +1,8 @@
 function Footer() {
     return(
         <footer>
-            Coded by Luna Smith, open-source GitHub
+            Coded by <a href="https://www.lunasmithart.com/">Luna Smith</a>
+            , open-source <a href="https://github.com/Lu-Smith/color_pick_react">GitHub</a>.
         </footer>
     )
 }

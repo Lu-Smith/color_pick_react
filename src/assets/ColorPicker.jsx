@@ -5,9 +5,9 @@ function ColorPicker() {
     const [color, setColor] = useState("#ffffff");
 
     function handleColorChange(e){
-
+        setColor(e.target.value);
     }
-    
+
 return (
     <div className="color-picker-container">
         <h1>Color Picker</h1>

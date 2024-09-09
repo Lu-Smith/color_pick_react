@@ -14,8 +14,10 @@ return (
         <div className="color-display" style={{background: color}}>
             <p>Selected Color: {color}</p>
         </div>
-        <label htmlFor="color">Select Color</label>
-        <input type="color" value={color} onChange={handleColorChange} />
+        <div className="select-color-container">
+            <label htmlFor="color">Select a color:</label>
+            <input type="color" value={color} onChange={handleColorChange} />
+        </div>
     </div>
 )
 }

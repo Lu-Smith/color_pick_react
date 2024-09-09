@@ -9,7 +9,7 @@ function ColorPicker() {
     }
 
 return (
-    <div className="color-picker-container">
+    <div>
         <h1>Color Picker</h1>
         <div className="color-display" style={{background: color}}>
             <p>Selected Color: {color}</p>

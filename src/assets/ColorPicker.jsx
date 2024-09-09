@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 
 function ColorPicker() {
+
+    const [color, setColor] = useState("#ffffff");
 return (
-    <>
-    <h1>Hello Wolrd</h1>
-    </>
+    <div className="color-picker-container">
+        <h1>Color Picker</h1>
+        <div className="color-display">
+            
+        </div>
+    </div>
 )
 }
 

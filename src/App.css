@@ -16,3 +16,11 @@
   margin-bottom: 25px;
   transition: 0.25s all ease-in-out;
 }
+
+.color-display p {
+  font-size: 1.8rem;
+}
+
+label {
+  font-size: 1.5rem;
+}
